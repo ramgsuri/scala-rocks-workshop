@@ -10,7 +10,7 @@ object ValuesVariablesTypes extends App{
   val aChar: Char = 'a'
   val aBoolean: Boolean = true
   val aShort: Short = 1
-
+  
 
 
 }
