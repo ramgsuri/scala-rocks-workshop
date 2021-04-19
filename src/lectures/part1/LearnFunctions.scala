@@ -12,5 +12,8 @@ object LearnFunctions extends App {
   }
 
   val result = transform(2, cube) // Pass a function in parameters
-  print(result)  // prints 8
+  println(result)  // prints 8
+
+  val resultForDivide = transform(10, x => x/2)
+  println(resultForDivide)
 }
