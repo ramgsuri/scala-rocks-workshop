@@ -15,4 +15,8 @@ object LearnExpressions extends App{
     val condition: Boolean = true
     val result = if(condition) "hello" else "bye"
   }
+
+  // Difference between "hello world" and print("hello world")
+  //Data Type of First one is String and second one is Unit and it has side effects
+
 }
