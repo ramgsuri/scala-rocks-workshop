@@ -4,8 +4,8 @@ beginners level to intermediate.
 
 Topics :
 
-1.) Basic DataStructures. 
-2.) Data Types. 
-3.) Expression. 
+1. Basic DataStructures.    
+2. Data Types.   
+3. Expression.  
 
  
