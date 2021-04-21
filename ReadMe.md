@@ -7,5 +7,6 @@ Topics :
 1. Basic DataStructures.    
 2. Data Types.   
 3. Expression.  
+4. Functions.  
 
  
