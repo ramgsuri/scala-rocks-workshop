@@ -1,4 +1,4 @@
-package lectures.part1
+package main.scala.part1
 
 object ValuesVariablesTypes extends App{
 
@@ -11,6 +11,9 @@ object ValuesVariablesTypes extends App{
   val aBoolean: Boolean = true
   val aShort: Short = 1
   
+  // Type Inference
+
+
 
 
 }

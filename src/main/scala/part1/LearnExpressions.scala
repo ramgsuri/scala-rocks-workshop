@@ -1,10 +1,10 @@
-package lectures.part1
+package main.scala.part1
 
 object LearnExpressions extends App{
 
   // Instructions  Vs Expressions
   // In Imperative Languages like Java you tell the Computer to do something via Instructions
-  // Whereas in Scala you pass expressions & expressions are evaluated
+  // Whereas in Scala you pass expressions & expressions are evaluated means give me the value of something.
   val condition: Boolean = true
   val answer = if(condition) 5 else 0
   print(answer)  // 5
