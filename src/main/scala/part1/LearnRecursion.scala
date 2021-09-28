@@ -5,7 +5,7 @@ object LearnRecursion extends App{
   def factorial(n: Int): Int = {
     if ( n <=1) 1
     else {
-      println("Computing factorial of " + n + "I first need factorial of "  +  (n-1)  )
+      println("Going To Calculate factorial of " + n + "first need factorial of "  +  (n-1)  )
       val result =  n*factorial(n-1)
       println("Computed factorial of "+ n)
       result
@@ -25,15 +25,20 @@ object LearnRecursion extends App{
 
   // Solve using accumulator
 
-  def anotherFacrtorial(n: Int): BigInt = {
+  def anotherFactorial(n: Int): BigInt = {
     def factHelper(x: Int, accumulator: BigInt): BigInt = {
       if(x <=1) accumulator
-      else factHelper(x-1, x*accumulator)
+      else {
+        println("Computing factorial of " + (x-1))
+        val output = factHelper(x-1, x*accumulator)
+        println("Computed factorial of " + (x-1))
+        output
+      }
     }
     factHelper(n,1)
   }
 
-  print(anotherFacrtorial(5))
+  print(anotherFactorial(5))
 
 
 
